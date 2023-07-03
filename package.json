@@ -1,0 +1,32 @@
+{
+  "name": "@panda/logger",
+  "version": "0.1.0",
+  "description": "A simple logging interface for NodeJS applications",
+  "main": "logger.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [
+    "panda",
+    "logger",
+    "logging"
+  ],
+  "author": "Adam T. Puzio",
+  "license": "MIT",
+  "standard": {
+    "ignore": [
+      "*.test.js"
+    ]
+  },
+  "dependencies": {
+    "figures": "^3.2.0",
+    "kleur": "^4.1.5",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "standard": "^17.1.0"
+  }
+}
